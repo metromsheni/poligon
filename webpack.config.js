@@ -155,7 +155,7 @@ const webpackConfig = {
             template: `./src/index.html`,
             filename: "index.html",
             base: "/",
-            favicon: "./fav/fav.png",
+            favicon: "./fav/fav.svg",
         }),
         new HtmlWebpackInjector(),
         new CleanWebpackPlugin({
