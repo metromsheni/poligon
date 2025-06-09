@@ -4,7 +4,8 @@
   "description": "My personal poligon testing",
   "main": "server.js",
   "scripts": {
-    "start": "webpack "
+    "start": "webpack serve  --mode development --open",
+    "build": "webpack   --mode production"
   },
   "repository": {
     "type": "git",
