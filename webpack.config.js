@@ -160,7 +160,7 @@ const webpackConfig = {
         new HtmlWebpackInjector(),
         new CleanWebpackPlugin({
             cleanOnceBeforeBuildPatterns: [
-                '!.git', '!.gitignore', '!README.md', 'media', 'src', 'app', 'fav.png', 'index.html', 'style'
+                '!.git', '!.gitignore', '!README.md', 'media', 'src', 'app', 'fav.svg', 'index.html', 'style'
             ]
         }),
     ],
